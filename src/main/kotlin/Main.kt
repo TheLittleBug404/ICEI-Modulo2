@@ -8,12 +8,15 @@ fun main() {
     var telefono1: Celular = Celular("Samsung", "S24","Blanco");
     var telefono2: Celular = Celular("Sony", "Z25","Blanco");
     var telefono3: Celular = Celular("Huawei", "GTX","Fuxia");
+    var telefono4: Celular = Celular("IPhone", "IPhone 17","Azul");
 
     println(telefono.modelo)
     telefono.llamar()
     println(telefono1.marca)
     println(telefono2.marca)
     println(telefono3.marca)
+    println(telefono4.marca)
+    println(telefono4.modelo)
 }
 //esto es una clase
 class Celular {
